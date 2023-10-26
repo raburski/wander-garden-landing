@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     height: 58px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     left: auto;
     right: auto;
@@ -13,4 +13,10 @@
     backdrop-filter: blur(18.2px);
     -webkit-backdrop-filter: blur(18.2px);
     border: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.contained {
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
 }
