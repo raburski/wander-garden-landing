@@ -1,0 +1,43 @@
+:root {
+  --background-default: #FFFFFF;
+  --background-highlight: #F0F0F0;
+  --primary-default: #4fa177;
+  --primary-highlight: #ebf2ee;
+  --primary-active: #d5ebe0;
+  --text: black;
+  --border: #E0E0E0;
+  --shadow: rgba(22, 22, 26, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+ 
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */

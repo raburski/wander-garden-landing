@@ -1,0 +1,25 @@
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    padding: 6px;
+    padding-left:18px;
+    padding-right:18px;
+    border-radius: 26px;
+    text-decoration: none;
+    color: var(--background-default);
+    /* font-family: Primary; */
+    font-size: 15px;
+    background-color: var(--primary-default);
+}
+
+.linkIcon {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+.linkSeparator {
+    width: 10px;
+}
