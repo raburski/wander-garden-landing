@@ -41,3 +41,8 @@ a {
     color-scheme: dark;
   }
 } */
+
+@font-face {
+  font-family: Primary;
+  src: url(/fonts/Geomatrix.ttf);
+}

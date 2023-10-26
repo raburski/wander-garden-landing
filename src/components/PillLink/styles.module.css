@@ -9,7 +9,7 @@
     border-radius: 26px;
     text-decoration: none;
     color: var(--background-default);
-    /* font-family: Primary; */
+    font-family: Primary;
     font-size: 15px;
     background-color: var(--primary-default);
 }
