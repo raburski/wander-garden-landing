@@ -3,8 +3,13 @@
     align-items: center;
     justify-content: center;
     height: 400px;
+    padding-bottom: 12px;
+}
 
-    /* background: url('/images/poland.png');
-    background-repeat: no-repeat;
-    background-size: cover; */
+.heroText {
+    font-family: Primary;
+    font-size: 42px;
+    padding-left: 64px;
+    padding-right: 32px;
+    padding-bottom: 12px;
 }

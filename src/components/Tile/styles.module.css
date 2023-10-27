@@ -1,0 +1,30 @@
+.tile {
+    padding: 16px;
+    margin: 16px;
+}
+
+.tileText {
+    display: flex;
+    flex: 1;
+    font-size: 24px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop {
+    position: absolute;
+    font-family: Primary;
+    font-size: 32px;
+    width: 52px;
+    height: 52px;
+    margin-left: -2px;
+    background-color: var(--background-default);
+    white-space: pre-wrap;
+    overflow: hidden;
+    border-radius: 44px;
+    border: 1px solid var(--border);
+    box-shadow: 0px 2px 3px var(--shadow);
+    text-align: center;
+    padding-top: 7px;
+}
