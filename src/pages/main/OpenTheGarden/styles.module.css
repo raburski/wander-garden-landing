@@ -6,3 +6,31 @@
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
 }
+
+.button {
+    background: linear-gradient(
+        to left,
+        #4fa177,
+        #45ac77,
+        #45be73,
+        #6bc62e,
+        #bed656,
+        #2fbb3a,
+        #2b9f63,
+        #4fa177,
+        #4fa177
+    );
+
+    background-size: 200% 200%;
+    animation: animateGlow 3.5s linear infinite;
+}
+
+@keyframes animateGlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
+  

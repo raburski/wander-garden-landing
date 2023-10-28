@@ -11,6 +11,7 @@ export default function OpenTheGarden() {
         <div className={styles.container}>
             <div className={styles.heroText}>
                 <PillLink
+                    className={styles.button}
                     href="https://app.wander.garden"
                     whileHover={WHILE_HOVER}
                     whileTap={WHILE_TAP}

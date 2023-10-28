@@ -1,6 +1,32 @@
 .navbar {
     display: flex;
-    height: 44px;
     justify-content: space-around;
     align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.links {
+    padding-bottom: 12px;
+}
+
+.link {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.link:hover {
+    opacity: 0.6;
+}
+
+.linkIcon {
+    font-size: 16px;
+    margin-right: 4px;
+    margin-bottom: -2px;
 }

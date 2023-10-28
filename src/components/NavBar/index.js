@@ -5,6 +5,9 @@ import { LuPalmtree } from 'react-icons/lu'
 import Contained from '../Contained'
 import Image from 'next/image'
 
+
+const APP_LINK = 'https://app.wander.garden'
+
 export default function NavBar() {
     return (
         <div className={styles.navbar}>
@@ -13,7 +16,7 @@ export default function NavBar() {
                     <Image src="/garden.svg" width={36} height={36} className={styles.logoImage}/>
                     Wander Garden
                 </Link>
-                <PillLink href="https://app.wander.garden" icon={LuPalmtree}>Open the garden</PillLink>
+                <PillLink href={APP_LINK} icon={LuPalmtree}>Open the garden</PillLink>
             </Contained>
         </div>
     )
