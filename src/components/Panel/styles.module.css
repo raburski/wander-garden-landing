@@ -1,6 +1,5 @@
 .panel {
     display: flex;
-    flex-direction: column;
     background-color: var(--background-default);
     white-space: pre-wrap;
     overflow: hidden;
