@@ -1,0 +1,14 @@
+.contained {
+    align-self: center;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.policy {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-wrap;
+}

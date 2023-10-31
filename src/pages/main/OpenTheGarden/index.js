@@ -9,16 +9,14 @@ const INITIAL = {scale:1.6}
 export default function OpenTheGarden() {
     return (
         <div className={styles.container}>
-            <div className={styles.heroText}>
-                <PillLink
-                    className={styles.button}
-                    href="https://app.wander.garden"
-                    whileHover={WHILE_HOVER}
-                    whileTap={WHILE_TAP}
-                    initial={INITIAL}
-                    icon={LuPalmtree}
-                >Open the garden</PillLink>
-            </div>
+            <PillLink
+                className={styles.button}
+                href="https://app.wander.garden"
+                whileHover={WHILE_HOVER}
+                whileTap={WHILE_TAP}
+                initial={INITIAL}
+                icon={LuPalmtree}
+            >Open the garden</PillLink>
         </div>
     )
 }
